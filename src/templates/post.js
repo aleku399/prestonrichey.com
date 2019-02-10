@@ -48,7 +48,9 @@ export default ({ data }) => {
       )}
 
       <h1>{post.frontmatter.title}</h1>
+
       <TextPostBody htmlAst={post.htmlAst} />
+
       <StyledPostDate>{post.frontmatter.date}</StyledPostDate>
     </div>
   );
